@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React By Nirdesh. We love this course
+          Learn React By Nirdesh. We love this course, It is changed to feature branch
         </a>
       </header>
     </div>
