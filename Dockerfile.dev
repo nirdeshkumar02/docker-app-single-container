@@ -2,6 +2,7 @@ FROM node:16-alpine
 WORKDIR '/app'
 COPY package.json .
 RUN npm install
+COPY . .
 # COPY . .  We can remove this copy because now through volume we are taking refrence of local file to /app inside container. 
 # it is like live ref, whatever changes done in local code, reflected to inside container. If we don't use volume for mapping then 
 # it will helpful. For more look on to the docker-compose.yml file
