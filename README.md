@@ -10,5 +10,5 @@
 1. Using Multi Step we 1st build the application using `npm run build`.
 2. Then using 1st steps result to run application in nginx webserver.
 
-## Deployment - Deploying Application to other world on AWS using Travis CI Workflow -
-`Code -> GitHub (Feature Branch) -> Pull Request -> GitHub (Master Branch) -> Travis CI -> Aws Hosting`
+## Deployment - Deploying Application to other world on AWS using Github Workflow -
+`Code -> GitHub (Feature Branch) -> Pull Request -> GitHub (Master Branch) -> Github Action -> Aws Hosting`
